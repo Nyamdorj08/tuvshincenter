@@ -15,24 +15,24 @@ export default function Hero() {
 
       <div className="absolute inset-0 " />
 
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-8xl mx-auto">
         <h1
           className="font-bold text-white leading-tight 
           text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl"
         >
-          UPGRADE YOUR JOURNEY
+          TUVSHIN CENTER - АВТО СЕРВИС
         </h1>
 
         <p
           className="mt-4 text-white/80 
           text-sm sm:text-base md:text-lg lg:text-xl max-w-2xl mx-auto"
         >
-          The horizon is only a starting point. Equip your vehicle with the
-          finest components engineered for the path less traveled.
+          Төмөр хүлгийн тань хүч чадал, өнгө төрхийг технологийн дэвшлээр
+          шинэчилнэ. Шинэлэг бүхнийг таны машинд.
         </p>
 
         <div className="mt-6 flex justify-center">
-          <button
+          {/* <button
             className="
               px-6 py-3 sm:px-8 sm:py-4
               text-sm sm:text-base tracking-[0.15em] uppercase
@@ -45,7 +45,7 @@ export default function Hero() {
             "
           >
             Contact Specialist
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

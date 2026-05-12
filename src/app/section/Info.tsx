@@ -23,9 +23,11 @@ export default function Info() {
             <div className="flex items-start gap-3 md:gap-4">
               <div className="w-[2px] h-8 md:h-10 bg-black" />
               <div>
-                <p className="text-sm font-semibold">Rope</p>
+                <p className="text-sm font-semibold">Татлага олс</p>
                 <p className="text-xs text-gray-500 tracking-widest">
-                  Synthetic,10mm×25m, Steel, 9.5mm×26m
+                  Synthetic (синтетик олс): 10 мм зузаан, 25 метр урт  Steel{" "}
+                  <br />
+                  (ган тросс): 9.5 мм зузаан, 26 метр урт
                 </p>
               </div>
             </div>
@@ -33,9 +35,11 @@ export default function Info() {
             <div className="flex items-start gap-3 md:gap-4">
               <div className="w-[2px] h-8 md:h-10 bg-black" />
               <div>
-                <p className="text-sm font-semibold">Rated linepull</p>
+                <p className="text-sm font-semibold">Татах хүчин чадал </p>
                 <p className="text-xs text-gray-500 tracking-widest">
-                  13,000lbs/5,896kgs; 6,500lbs/2,948kgs
+                  Нэг давхар таталт: 13,000 фунт (ойролцоогоор 5,896 кг)
+                  <br />  Хоёр давхар / pulley ашигласан үед: 6,500 фунт (2,948
+                  кг)
                 </p>
               </div>
             </div>
@@ -43,9 +47,9 @@ export default function Info() {
             <div className="flex items-start gap-3 md:gap-4">
               <div className="w-[2px] h-8 md:h-10 bg-black" />
               <div>
-                <p className="text-sm font-semibold">Brake Automatic</p>
+                <p className="text-sm font-semibold">Автомат тоормос</p>
                 <p className="text-xs text-gray-500 tracking-widest">
-                  100% load holding
+                  Ачааллыг 100% барина
                 </p>
               </div>
             </div>
@@ -53,9 +57,11 @@ export default function Info() {
             <div className="flex items-start gap-3 md:gap-4">
               <div className="w-[2px] h-8 md:h-10 bg-black" />
               <div>
-                <p className="text-sm font-semibold">Motor 12V DC</p>
+                <p className="text-sm font-semibold">
+                  12 вольтын тогтмол гүйдлийн мотор
+                </p>
                 <p className="text-xs text-gray-500 tracking-widest">
-                  Sealed Series Wound
+                  Битүүмжилсэн series wound мотор
                 </p>
               </div>
             </div>
