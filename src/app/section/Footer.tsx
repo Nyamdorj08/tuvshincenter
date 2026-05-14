@@ -14,7 +14,7 @@ export default function Footer() {
       <footer className="bg-[#f5f5f5] pt-12 md:pt-16 pb-6">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           {/* TOP */}
-          <div className="grid md:grid-cols-2 gap-8 md:gap-10 items-start">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6 items-start">
             {/* LEFT */}
             <div>
               <div className="flex items-center gap-3">
@@ -51,7 +51,10 @@ export default function Footer() {
 
                 <div className="flex items-center gap-3">
                   <MapPin size={16} />
-                  <span>Хаяг: Улаанбаатар хот</span>
+                  <span>
+                    Хаяг: ХУД 16-р хороо, Сонсголонгийн гүүр гараад
+                    <br /> ELEGANCE хорооллын урдуур баруун эргээд 900 метр
+                  </span>
                 </div>
               </div>
             </div>
